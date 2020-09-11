@@ -50,7 +50,7 @@ public class Okienko {
                     }
                 } catch (Exception s){
 
-                        wyswietlWynik.setText("debilu nie podales liczby");
+                        wyswietlWynik.setText("Nie podales liczby");
                         wprowadzonaLiczba.setText("");
                 }
 
