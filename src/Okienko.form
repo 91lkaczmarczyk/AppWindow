@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Okienko">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="15" y="77" width="594" height="419"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="true"/>
+      <background color="-16180671"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6d1c1" class="javax.swing.JFormattedTextField" binding="wprowadzonaLiczba">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="85"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+          <toolTipText value="wprowadzLiczbe"/>
+        </properties>
+      </component>
+      <component id="8bd8d" class="javax.swing.JLabel" binding="podajLiczbe">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="84" height="85"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1843491"/>
+          <foreground color="-199937"/>
+          <text value="Podaj liczbę od 1 do 100"/>
+        </properties>
+      </component>
+      <component id="aa545" class="javax.swing.JButton" binding="zgadujButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="85"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Sprawdz"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="96530" class="javax.swing.JButton" binding="losujNowąLiczbęDoButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <borderPainted value="true"/>
+          <text value="Losuj nową liczbę"/>
+        </properties>
+        <clientProperties>
+          <hideActionText class="java.lang.Boolean" value="false"/>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+      </component>
+      <component id="4807d" class="javax.swing.JTextPane" binding="iloscProb">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="25" height="85"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8d15" class="javax.swing.JTextPane" binding="wyswietlWynik">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="25"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
